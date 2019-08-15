@@ -44,15 +44,4 @@ F1 "led_strip.sch" 50
 F2 "LED_strip_enable" I L 6900 2800 50 
 F3 "LED_strip_data" I L 6900 2900 50 
 $EndSheet
-$Comp
-L skull:Skull SKL666
-U 1 1 5D55A3E8
-P 5400 5100
-F 0 "SKL666" H 5600 5600 50  0000 L CNN
-F 1 "Skull" H 5700 5500 50  0001 C CNN
-F 2 "skull:skull" H 5700 5400 50  0001 C CNN
-F 3 "" H 5400 5100 50  0001 C CNN
-	1    5400 5100
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

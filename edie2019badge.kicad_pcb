@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 153)
+    (drawings 157)
     (tracks 0)
     (zones 0)
     (modules 27)
@@ -236,9 +236,9 @@
     (add_net "Net-(IC1-Pad9)")
   )
 
-  (module skull:skull locked (layer F.Cu) (tedit 5D559CAA) (tstamp 5D55C5B7)
+  (module skull:skull locked (layer F.Cu) (tedit 5D55A29D) (tstamp 5D55C5B7)
     (at 91.3 94.1)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (fp_text reference SKL666 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
@@ -1321,6 +1321,10 @@
       (net 67 "Net-(IC1-Pad24)"))
   )
 
+  (gr_line (start 144.349548 116.055135) (end 140.349548 116.055135) (layer F.Fab) (width 0.2))
+  (gr_line (start 144.349548 113.055135) (end 144.349548 116.055135) (layer F.Fab) (width 0.2))
+  (gr_line (start 140.349548 113.055135) (end 144.349548 113.055135) (layer F.Fab) (width 0.2))
+  (gr_line (start 140.349548 116.055135) (end 140.349548 113.055135) (layer F.Fab) (width 0.2))
   (gr_line (start 81.99658 128.575856) (end 81.460268 127.037771) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 88.094657 138.542403) (end 87.668735 138.068906) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 113.69238 139.624946) (end 113.306011 139.794166) (layer Edge.Cuts) (width 0.2))

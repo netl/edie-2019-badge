@@ -1,0 +1,7 @@
+#kicad
+*.bak
+*-bak
+
+#dotfiles
+.*
+!.gitignore

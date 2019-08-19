@@ -93,4 +93,8 @@ Wire Wire Line
 Connection ~ 4900 3500
 Wire Wire Line
 	4900 3500 6000 3500
+Text HLabel 7400 4100 0    50   Output ~ 0
+RX
+Text HLabel 7400 4200 0    50   Input ~ 0
+TX
 $EndSCHEMATC

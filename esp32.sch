@@ -188,7 +188,7 @@ $EndComp
 Wire Wire Line
 	9000 5400 9000 5300
 Text GLabel 8900 5000 0    50   Input ~ 0
-+3.3V
++3V3
 Wire Wire Line
 	9400 5200 9500 5200
 Wire Wire Line
@@ -295,4 +295,44 @@ Wire Wire Line
 	10200 4800 10900 4800
 Text Notes 9600 4700 0    50   ~ 0
 Shitty Add-on
+Text GLabel 4800 2900 0    50   Input ~ 0
++3V3
+$Comp
+L generic:C C2
+U 1 1 5D5C22AF
+P 5000 3100
+F 0 "C2" H 5078 3100 50  0000 L CNN
+F 1 "C" H 5100 3000 50  0001 C CNN
+F 2 "" H 5000 3100 50  0001 C CNN
+F 3 "" H 5000 3100 50  0001 C CNN
+	1    5000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3100 5400 3100
+Wire Wire Line
+	5400 3100 5400 2900
+Wire Wire Line
+	5400 2900 5500 2900
+Wire Wire Line
+	5400 2900 5000 2900
+Connection ~ 5400 2900
+Wire Wire Line
+	5000 3000 5000 2900
+Connection ~ 5000 2900
+Wire Wire Line
+	5000 2900 4800 2900
+$Comp
+L generic:GND #GND0134
+U 1 1 5D5C63D9
+P 5000 3300
+F 0 "#GND0134" H 5150 3350 50  0001 C CNN
+F 1 "GND" H 5150 3300 50  0001 C CNN
+F 2 "" H 5000 3300 50  0001 C CNN
+F 3 "" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3300 5000 3200
 $EndSCHEMATC

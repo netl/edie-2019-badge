@@ -42,7 +42,7 @@ Wire Wire Line
 	4300 3900 4400 3900
 Wire Wire Line
 	4400 3900 4400 4000
-Text GLabel 6000 3500 2    50   Output ~ 0
+Text GLabel 6900 3500 2    50   Output ~ 0
 +5V_USB
 Wire Wire Line
 	4300 3500 4900 3500
@@ -92,9 +92,52 @@ Wire Wire Line
 	4900 3900 4900 3500
 Connection ~ 4900 3500
 Wire Wire Line
-	4900 3500 6000 3500
-Text HLabel 7400 4100 0    50   Output ~ 0
+	4900 3500 6300 3500
+Text HLabel 6500 3900 2    50   Output ~ 0
 RX
-Text HLabel 7400 4200 0    50   Input ~ 0
+Text HLabel 6500 4000 2    50   Input ~ 0
 TX
+$Comp
+L pin_headers:1x6_vertical_sm CN5
+U 1 1 5D5BE15C
+P 6200 4100
+F 0 "CN5" H 6294 3677 50  0000 C CNN
+F 1 "1x6_vertical_sm" H 6200 4400 50  0001 C CNN
+F 2 "pin_headers:1x6_vertical_sm" H 6200 4300 50  0001 C CNN
+F 3 "" H 6200 4100 50  0001 C CNN
+	1    6200 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L generic:GND #GND0131
+U 1 1 5D5BE3FD
+P 6300 4400
+F 0 "#GND0131" H 6450 4450 50  0001 C CNN
+F 1 "GND" H 6450 4400 50  0001 C CNN
+F 2 "" H 6300 4400 50  0001 C CNN
+F 3 "" H 6300 4400 50  0001 C CNN
+	1    6300 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4300 6300 4300
+Wire Wire Line
+	6300 4300 6300 4400
+Wire Wire Line
+	6200 4100 6300 4100
+Wire Wire Line
+	6300 4100 6300 3500
+Connection ~ 6300 3500
+Wire Wire Line
+	6300 3500 6900 3500
+Wire Wire Line
+	6500 3900 6200 3900
+Wire Wire Line
+	6200 4000 6500 4000
+Wire Wire Line
+	6200 4200 6400 4200
+Wire Wire Line
+	6400 4200 6400 3800
+Wire Wire Line
+	6400 3800 6200 3800
 $EndSCHEMATC

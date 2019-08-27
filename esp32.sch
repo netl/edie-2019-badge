@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7350 2900 2    50   Input ~ 0
+Text HLabel 7500 2900 2    50   Input ~ 0
 USB_power
 Text HLabel 7400 4600 2    50   Output ~ 0
 LED_strip_enable
@@ -127,8 +127,6 @@ Text HLabel 5300 3400 0    50   Input ~ 0
 RX
 Text HLabel 5300 3500 0    50   Output ~ 0
 TX
-Wire Wire Line
-	7350 2900 7100 2900
 $Comp
 L generic:GND #GND01
 U 1 1 5D5975F6
@@ -335,4 +333,70 @@ F 3 "" H 5000 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 3300 5000 3200
+Wire Wire Line
+	7100 2900 7500 2900
+$Comp
+L generic:GND #GND0135
+U 1 1 5D659E2B
+P 7600 3300
+F 0 "#GND0135" H 7750 3350 50  0001 C CNN
+F 1 "GND" H 7750 3300 50  0001 C CNN
+F 2 "" H 7600 3300 50  0001 C CNN
+F 3 "" H 7600 3300 50  0001 C CNN
+	1    7600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3300 7600 3200
+Wire Wire Line
+	7600 3000 7500 3000
+Wire Wire Line
+	7500 3100 7600 3100
+Connection ~ 7600 3100
+Wire Wire Line
+	7600 3100 7600 3000
+Wire Wire Line
+	7600 3200 7500 3200
+Connection ~ 7600 3200
+Wire Wire Line
+	7600 3200 7600 3100
+Wire Wire Line
+	7300 3000 7100 3000
+Wire Wire Line
+	7100 3100 7300 3100
+Wire Wire Line
+	7300 3200 7100 3200
+$Comp
+L switches:switch_3x6 SW1
+U 1 1 5D662018
+P 7400 3000
+F 0 "SW1" H 7700 3000 50  0000 C CNN
+F 1 "switch_3x6" H 7400 3100 50  0001 C CNN
+F 2 "buttons:sw_3x6" H 7400 2950 50  0001 C CNN
+F 3 "" H 7400 3000 50  0001 C CNN
+	1    7400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:switch_3x6 SW2
+U 1 1 5D662081
+P 7400 3100
+F 0 "SW2" H 7700 3100 50  0000 C CNN
+F 1 "switch_3x6" H 7400 3200 50  0001 C CNN
+F 2 "buttons:sw_3x6" H 7400 3050 50  0001 C CNN
+F 3 "" H 7400 3100 50  0001 C CNN
+	1    7400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:switch_3x6 SW3
+U 1 1 5D66209F
+P 7400 3200
+F 0 "SW3" H 7700 3200 50  0000 C CNN
+F 1 "switch_3x6" H 7400 3300 50  0001 C CNN
+F 2 "buttons:sw_3x6" H 7400 3150 50  0001 C CNN
+F 3 "" H 7400 3200 50  0001 C CNN
+	1    7400 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -80,7 +80,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 2800 8300 2600
 Text GLabel 9100 2800 3    50   BiDi ~ 0
-+5V
++3V3
 Text Label 8600 2800 1    50   ~ 0
 SCL
 Text Label 8700 2800 1    50   ~ 0

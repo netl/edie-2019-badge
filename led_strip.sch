@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:edie2019badge-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -915,17 +914,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 5600 5300 5600
 Connection ~ 5300 5600
-$Comp
-L PCB:TestPoint TP1
-U 1 1 5D5A759D
-P 8000 5900
-F 0 "TP1" H 8129 5931 50  0000 L CNN
-F 1 "TestPoint" H 8000 6000 50  0001 C CNN
-F 2 "" H 8000 5900 50  0001 C CNN
-F 3 "" H 8000 5900 50  0001 C CNN
-	1    8000 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 5900 7900 5900
 $Comp
@@ -937,6 +925,17 @@ F 1 "GND" H 5450 2600 50  0001 C CNN
 F 2 "" H 5300 2600 50  0001 C CNN
 F 3 "" H 5300 2600 50  0001 C CNN
 	1    5300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP1
+U 1 1 5D6830CC
+P 8000 5900
+F 0 "TP1" H 8129 5931 50  0000 L CNN
+F 1 "test_point" H 8000 6000 50  0001 C CNN
+F 2 "PCB:test_point" H 8100 5850 50  0001 C CNN
+F 3 "" H 8000 5900 50  0001 C CNN
+	1    8000 5900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

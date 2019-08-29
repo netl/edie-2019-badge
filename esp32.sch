@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:edie2019badge-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -399,4 +398,212 @@ F 3 "" H 7400 3200 50  0001 C CNN
 	1    7400 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L PCB:test_point TP2
+U 1 1 5D684D69
+P 5400 4100
+F 0 "TP2" H 5700 4150 50  0000 R CNN
+F 1 "test_point" H 5400 4200 50  0001 C CNN
+F 2 "PCB:test_point" H 5500 4050 50  0001 C CNN
+F 3 "" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP3
+U 1 1 5D684F1E
+P 5400 4200
+F 0 "TP3" H 5700 4250 50  0000 R CNN
+F 1 "test_point" H 5400 4300 50  0001 C CNN
+F 2 "PCB:test_point" H 5500 4150 50  0001 C CNN
+F 3 "" H 5400 4200 50  0001 C CNN
+	1    5400 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP4
+U 1 1 5D684F6F
+P 5400 4400
+F 0 "TP4" H 5700 4450 50  0000 R CNN
+F 1 "test_point" H 5400 4500 50  0001 C CNN
+F 2 "PCB:test_point" H 5500 4350 50  0001 C CNN
+F 3 "" H 5400 4400 50  0001 C CNN
+	1    5400 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP5
+U 1 1 5D684F9B
+P 5400 4500
+F 0 "TP5" H 5700 4550 50  0000 R CNN
+F 1 "test_point" H 5400 4600 50  0001 C CNN
+F 2 "PCB:test_point" H 5500 4450 50  0001 C CNN
+F 3 "" H 5400 4500 50  0001 C CNN
+	1    5400 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP6
+U 1 1 5D684FC3
+P 5400 4600
+F 0 "TP6" H 5700 4650 50  0000 R CNN
+F 1 "test_point" H 5400 4700 50  0001 C CNN
+F 2 "PCB:test_point" H 5500 4550 50  0001 C CNN
+F 3 "" H 5400 4600 50  0001 C CNN
+	1    5400 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP7
+U 1 1 5D684FED
+P 5400 4700
+F 0 "TP7" H 5700 4750 50  0000 R CNN
+F 1 "test_point" H 5400 4800 50  0001 C CNN
+F 2 "PCB:test_point" H 5500 4650 50  0001 C CNN
+F 3 "" H 5400 4700 50  0001 C CNN
+	1    5400 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP8
+U 1 1 5D685046
+P 5400 4800
+F 0 "TP8" H 5700 4850 50  0000 R CNN
+F 1 "test_point" H 5400 4900 50  0001 C CNN
+F 2 "PCB:test_point" H 5500 4750 50  0001 C CNN
+F 3 "" H 5400 4800 50  0001 C CNN
+	1    5400 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP9
+U 1 1 5D685074
+P 5400 4900
+F 0 "TP9" H 5700 4950 50  0000 R CNN
+F 1 "test_point" H 5400 5000 50  0001 C CNN
+F 2 "PCB:test_point" H 5500 4850 50  0001 C CNN
+F 3 "" H 5400 4900 50  0001 C CNN
+	1    5400 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP10
+U 1 1 5D6850D7
+P 7200 3300
+F 0 "TP10" H 7500 3350 50  0000 R CNN
+F 1 "test_point" H 7200 3400 50  0001 C CNN
+F 2 "PCB:test_point" H 7300 3250 50  0001 C CNN
+F 3 "" H 7200 3300 50  0001 C CNN
+	1    7200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP11
+U 1 1 5D6868C0
+P 7200 3400
+F 0 "TP11" H 7500 3450 50  0000 R CNN
+F 1 "test_point" H 7200 3500 50  0001 C CNN
+F 2 "PCB:test_point" H 7300 3350 50  0001 C CNN
+F 3 "" H 7200 3400 50  0001 C CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP12
+U 1 1 5D6868F4
+P 7200 3500
+F 0 "TP12" H 7500 3550 50  0000 R CNN
+F 1 "test_point" H 7200 3600 50  0001 C CNN
+F 2 "PCB:test_point" H 7300 3450 50  0001 C CNN
+F 3 "" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP13
+U 1 1 5D68692A
+P 7200 3900
+F 0 "TP13" H 7500 3950 50  0000 R CNN
+F 1 "test_point" H 7200 4000 50  0001 C CNN
+F 2 "PCB:test_point" H 7300 3850 50  0001 C CNN
+F 3 "" H 7200 3900 50  0001 C CNN
+	1    7200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP14
+U 1 1 5D686968
+P 7200 4000
+F 0 "TP14" H 7500 4050 50  0000 R CNN
+F 1 "test_point" H 7200 4100 50  0001 C CNN
+F 2 "PCB:test_point" H 7300 3950 50  0001 C CNN
+F 3 "" H 7200 4000 50  0001 C CNN
+	1    7200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP15
+U 1 1 5D6869A2
+P 7200 4100
+F 0 "TP15" H 7500 4150 50  0000 R CNN
+F 1 "test_point" H 7200 4200 50  0001 C CNN
+F 2 "PCB:test_point" H 7300 4050 50  0001 C CNN
+F 3 "" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP16
+U 1 1 5D6869DE
+P 7200 4200
+F 0 "TP16" H 7500 4250 50  0000 R CNN
+F 1 "test_point" H 7200 4300 50  0001 C CNN
+F 2 "PCB:test_point" H 7300 4150 50  0001 C CNN
+F 3 "" H 7200 4200 50  0001 C CNN
+	1    7200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP17
+U 1 1 5D686A4C
+P 7200 5000
+F 0 "TP17" H 7500 5050 50  0000 R CNN
+F 1 "test_point" H 7200 5100 50  0001 C CNN
+F 2 "PCB:test_point" H 7300 4950 50  0001 C CNN
+F 3 "" H 7200 5000 50  0001 C CNN
+	1    7200 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5000 7100 5000
+Wire Wire Line
+	7200 4200 7100 4200
+Wire Wire Line
+	7100 4100 7200 4100
+Wire Wire Line
+	7200 4000 7100 4000
+Wire Wire Line
+	7100 3900 7200 3900
+Wire Wire Line
+	5400 4100 5500 4100
+Wire Wire Line
+	5500 4200 5400 4200
+Wire Wire Line
+	5400 4400 5500 4400
+Wire Wire Line
+	5500 4500 5400 4500
+Wire Wire Line
+	5400 4600 5500 4600
+Wire Wire Line
+	5500 4700 5400 4700
+Wire Wire Line
+	5400 4800 5500 4800
+Wire Wire Line
+	5500 4900 5400 4900
+Wire Wire Line
+	7200 3300 7100 3300
+Wire Wire Line
+	7100 3400 7200 3400
+Wire Wire Line
+	7200 3500 7100 3500
 $EndSCHEMATC

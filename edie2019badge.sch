@@ -28,6 +28,7 @@ S 2800 4400 1300 1300
 U 5D45A35F
 F0 "power supply" 50
 F1 "psu.sch" 50
+F2 "~battery_charging" O R 4100 4600 50 
 $EndSheet
 $Sheet
 S 4900 2500 1300 1300
@@ -39,6 +40,7 @@ F3 "LED_strip_enable" O R 6200 2800 50
 F4 "LED_strip_data" O R 6200 2900 50 
 F5 "RX" I L 4900 3000 50 
 F6 "TX" O L 4900 3100 50 
+F7 "battery_charging" I L 4900 3600 50 
 $EndSheet
 $Sheet
 S 6900 2500 1300 1300
@@ -58,4 +60,10 @@ Wire Wire Line
 	6200 2900 6900 2900
 Wire Wire Line
 	6900 2800 6200 2800
+Wire Wire Line
+	4900 3600 4800 3600
+Wire Wire Line
+	4800 3600 4800 4600
+Wire Wire Line
+	4800 4600 4100 4600
 $EndSCHEMATC

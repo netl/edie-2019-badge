@@ -45,9 +45,9 @@ $EndComp
 Wire Wire Line
 	3500 2800 3500 2900
 Text GLabel 2900 2000 0    50   Input ~ 0
-+5V
-Text Label 4100 2000 2    50   ~ 0
-+5V_LEDs
+VCC
+Text Label 3800 2000 0    50   ~ 0
++V_LEDs
 $Comp
 L LED:WS2812B D1
 U 1 1 5D557B95

@@ -850,7 +850,7 @@ Wire Wire Line
 	4200 5600 5300 5600
 Connection ~ 5300 5600
 Wire Wire Line
-	8000 5900 7900 5900
+	8100 5900 7900 5900
 $Comp
 L generic:GND #GND0105
 U 1 1 5D5B7610
@@ -865,12 +865,12 @@ $EndComp
 $Comp
 L PCB:test_point TP1
 U 1 1 5D6830CC
-P 8000 5900
-F 0 "TP1" H 8129 5931 50  0000 L CNN
-F 1 "test_point" H 8000 6000 50  0001 C CNN
-F 2 "PCB:test_point" H 8100 5850 50  0001 C CNN
-F 3 "" H 8000 5900 50  0001 C CNN
-	1    8000 5900
+P 8100 5900
+F 0 "TP1" H 8250 5950 50  0000 L CNN
+F 1 "test_point" H 8100 6000 50  0001 C CNN
+F 2 "PCB:test_point" H 8200 5850 50  0001 C CNN
+F 3 "" H 8100 5900 50  0001 C CNN
+	1    8100 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1024,8 +1024,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 1300 4200 2000
 Wire Wire Line
-	4200 2000 5300 2000
-Wire Wire Line
 	4500 1300 4500 1400
 Connection ~ 4500 1300
 Wire Wire Line
@@ -1090,4 +1088,44 @@ Wire Wire Line
 	3500 2100 3500 2400
 Wire Wire Line
 	3700 2000 4200 2000
+$Comp
+L PCB:test_point TP?
+U 1 1 5D7D552B
+P 8100 5600
+F 0 "TP?" H 8250 5650 50  0000 L CNN
+F 1 "test_point" H 8100 5700 50  0001 C CNN
+F 2 "PCB:test_point" H 8200 5550 50  0001 C CNN
+F 3 "" H 8100 5600 50  0001 C CNN
+	1    8100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCB:test_point TP?
+U 1 1 5D80BE79
+P 8100 6100
+F 0 "TP?" H 8250 6150 50  0000 L CNN
+F 1 "test_point" H 8100 6200 50  0001 C CNN
+F 2 "PCB:test_point" H 8200 6050 50  0001 C CNN
+F 3 "" H 8100 6100 50  0001 C CNN
+	1    8100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic:GND GND?
+U 1 1 5D80BF32
+P 8100 6200
+F 0 "GND?" H 8250 6250 50  0001 C CNN
+F 1 "GND" H 8250 6200 50  0001 C CNN
+F 2 "" H 8100 6200 50  0001 C CNN
+F 3 "" H 8100 6200 50  0001 C CNN
+	1    8100 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 6200 8100 6100
+Wire Wire Line
+	4200 2000 5300 2000
+Wire Wire Line
+	7700 5600 8100 5600
+Connection ~ 7700 5600
 $EndSCHEMATC

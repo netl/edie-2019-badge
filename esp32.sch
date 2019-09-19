@@ -31,10 +31,6 @@ F 3 "" H 3500 4400 50  0001 C CNN
 	1    3500 3800
 	1    0    0    -1  
 $EndComp
-Text Label 4700 4200 2    50   ~ 0
-RX2
-Text Label 4700 4300 2    50   ~ 0
-TX2
 $Comp
 L skull:Skull SKL?
 U 1 1 5D560AA2

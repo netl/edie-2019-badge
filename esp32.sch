@@ -549,7 +549,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 4900 6500 4900
 Text HLabel 4800 2900 2    50   Input ~ 0
-battery_charging
+~battery_charging
 Wire Wire Line
 	4300 2900 4800 2900
 $Comp
@@ -640,4 +640,6 @@ Connection ~ 6600 4800
 Wire Wire Line
 	6500 4900 7400 4900
 Connection ~ 6500 4900
+Text HLabel 4800 3200 2    50   Input ~ 0
+~battery_standby
 $EndSCHEMATC

@@ -371,17 +371,6 @@ F 3 "" H 2600 4800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PCB:test_point TP10
-U 1 1 5D6850D7
-P 4400 3200
-F 0 "TP10" H 4700 3250 50  0000 R CNN
-F 1 "test_point" H 4400 3300 50  0001 C CNN
-F 2 "PCB:test_point" H 4500 3150 50  0001 C CNN
-F 3 "" H 4400 3200 50  0001 C CNN
-	1    4400 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L PCB:test_point TP11
 U 1 1 5D6868C0
 P 4400 3300
@@ -476,8 +465,6 @@ Wire Wire Line
 	2600 4700 2700 4700
 Wire Wire Line
 	2700 4800 2600 4800
-Wire Wire Line
-	4400 3200 4300 3200
 Wire Wire Line
 	4300 3300 4400 3300
 Wire Wire Line
@@ -642,4 +629,18 @@ Wire Wire Line
 Connection ~ 6500 4900
 Text HLabel 4800 3200 2    50   Input ~ 0
 ~battery_standby
+Text Notes 4700 3500 0    50   ~ 0
+reserved_esp
+Text Notes 4700 4400 0    50   ~ 0
+reserved_esp
+Text Notes 4700 3600 0    50   ~ 0
+reserved_esp
+Text Label 4400 4000 0    50   ~ 0
+button_left
+Text Label 4400 3700 0    50   ~ 0
+button_mid
+Text Label 4400 3800 0    50   ~ 0
+button_right
+Wire Wire Line
+	4300 3200 4800 3200
 $EndSCHEMATC

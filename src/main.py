@@ -86,6 +86,8 @@ while True:
     #ignore if no data
     if data == None:
         break
+    else:
+        anim_timer.deinit()
     
     try:
         rgb = (data['data'][0],data['data'][1],data['data'][2])

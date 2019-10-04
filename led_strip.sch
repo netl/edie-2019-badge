@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1800 2500 0    50   Input ~ 0
+Text HLabel 1700 2400 0    50   Input ~ 0
 LED_strip_enable
 Text HLabel 3300 2400 0    50   Input ~ 0
 LED_strip_data
@@ -34,16 +34,16 @@ Wire Wire Line
 $Comp
 L generic:GND #GND0104
 U 1 1 5D45AD0A
-P 2200 2700
-F 0 "#GND0104" H 2350 2750 50  0001 C CNN
-F 1 "GND" H 2350 2700 50  0001 C CNN
-F 2 "" H 2200 2700 50  0001 C CNN
-F 3 "" H 2200 2700 50  0001 C CNN
-	1    2200 2700
+P 2200 2800
+F 0 "#GND0104" H 2350 2850 50  0001 C CNN
+F 1 "GND" H 2350 2800 50  0001 C CNN
+F 2 "" H 2200 2800 50  0001 C CNN
+F 3 "" H 2200 2800 50  0001 C CNN
+	1    2200 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 2600 2200 2700
+	2200 2600 2200 2800
 Text GLabel 1600 1800 0    50   Input ~ 0
 VCC
 Text Label 2700 1800 2    50   ~ 0
@@ -620,7 +620,7 @@ F 3 "" H 2200 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 2500 2100 2500
+	1700 2400 1800 2400
 Wire Wire Line
 	1900 2200 2200 2200
 Connection ~ 2200 2200
@@ -1592,4 +1592,37 @@ Wire Wire Line
 	6700 1800 7600 1800
 Wire Wire Line
 	4000 1800 4900 1800
+$Comp
+L generic:R R?
+U 1 1 5D98CF16
+P 1800 2600
+F 0 "R?" V 1800 2653 50  0000 L CNN
+F 1 "R" H 1800 2500 50  0001 C CNN
+F 2 "SMT:0603" H 1800 2600 50  0001 C CNN
+F 3 "" H 1800 2600 50  0001 C CNN
+	1    1800 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 2500 1800 2400
+$Comp
+L generic:GND #GND?
+U 1 1 5D99F62A
+P 1800 2800
+F 0 "#GND?" H 1950 2850 50  0001 C CNN
+F 1 "GND" H 1950 2800 50  0001 C CNN
+F 2 "" H 1800 2800 50  0001 C CNN
+F 3 "" H 1800 2800 50  0001 C CNN
+	1    1800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2800 1800 2700
+Wire Wire Line
+	2100 2500 2000 2500
+Wire Wire Line
+	2000 2500 2000 2400
+Wire Wire Line
+	2000 2400 1800 2400
+Connection ~ 1800 2400
 $EndSCHEMATC

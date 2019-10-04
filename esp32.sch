@@ -643,4 +643,8 @@ Text Label 4400 3800 0    50   ~ 0
 button_right
 Wire Wire Line
 	4300 3200 4800 3200
+Text Label 4400 4800 0    50   ~ 0
+SDA
+Text Label 4400 4900 0    50   ~ 0
+SCL
 $EndSCHEMATC
